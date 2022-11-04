@@ -10,7 +10,7 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: card.tex
-          latexmk_use_xetex: true
+          latexmk_use_pdflatex: true
       - name: Upload PDF file
         uses: actions/upload-artifact@v3
         with:
